@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="nav/Subtract.png" alt="" class="logo__img">
+                <div class="logo__title-block">
+                    <div class="logo__title">Mist Gardens</div>
+                    <div class="logo__text">Museum & Botanical Garden</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul сlass="nav__list" style="display: flex; column-gap: 40px; align-items: center">
+                    <li class="nav__item"><a href="#">Visit</a></li>
+                    <li class="nav__item"><a href="#">Exhibitions</a></li>
+                    <li class="nav__item"><a href="#">Programs & Events</a></li>
+                    <li class="nav__item"><a href="#">Store</a></li>
+                    <li class="nav__item nav__item_border"><a href="#">Membership</a></li>
+                </ul>
+                <ul class="burger">
+                    <li class="burger__line"></li>
+                    <li class="burger__line"></li>
+                    <li class="burger__line"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="grettings">
+            <div class="container">
+                <div class="grettings__content">
+                    <!-- блок описание -->
+                    <div class="grettings__desc">
+                        <div class="grettings__title">A beatiful adventure awaits</div>
+                        <div class="grettings__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+                            facilisis nunc</div>
+                        <div class="grettings__btn-block">
+                            <button class="btn grettings__tickets">Buy Tickets</button>
+                            <button class="btn grettings__extra-info">Learn More</button>
+                        </div>
+                    </div>
+                    <!-- блок с картинкой -->
+                    <div class="grettings__block-img">
+                        <img src="img/grettings/garden.png" alt="Картинка">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="desc">
+            <div class="container">
+                <div class="desc__content">
+                    <div class="desc__block">
+                        <img src="img/desc/1.png" alt="1 картинка">
+                        <div class="desc__info-block">
+                            <div class="desc__title">Discover yourself with nature</div>
+                            <div class="desc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+                                facilisis nuncLorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Tincidunt facilisis nunc</div>
+                            <button class="btn desc__btn">learn more</button>
+                        </div>
+                    </div>
+                    <div class="desc__block">
+                        <img src="img/desc/2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <img src="img/desc/list.svg" alt="картинка лист" class="desc__flower">
+        </section>
+
+    </main>
+
+
+
+</body>
+
+</html>
